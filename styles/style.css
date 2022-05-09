@@ -1,29 +1,92 @@
-.staff {
-    position: relative;
-  }
-  
-  .staff-details {
-    background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0) 100%
-    );
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    opacity: 0;
-    transition: all 0.3s linear;
-  }
-  
-  .staff:hover .staff-details {
-    opacity: 1;
-  }
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
 
- 
+.box h2{
+    color: yellowgreen;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.box p{
+    color: white;
+    font-size: 1.1rem;
+}
+
+#projects{
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/images/images\ \(3\).jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+#home{
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/images/images\ \(3\).jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+#about{
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/images/images\ \(3\).jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+#body{
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/images/images\ \(3\).jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+#table{
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/images/images\ \(3\).jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+#navbar{
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/images/images\ \(3\).jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+#navraj{
+  margin-left: 460px;
+  align-content: space-between;
+  display: flex;
+  font-size: larger;
+  font-weight: 600;
+}
