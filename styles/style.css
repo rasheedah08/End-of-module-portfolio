@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Ms+Madi&family=Tapestry&family=Updock&display=swap');
+
+
+
+
 .box{
-    height: 200px;
+    height: 300px;
     width: 500px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -7,10 +12,10 @@
     padding: 20px;
 }
 
-.box h2{
+.box h3{
     color: yellowgreen;
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .box p{
@@ -18,16 +23,15 @@
     font-size: 1.1rem;
 }
 
-#projects{
-  background:
-  /* top, transparent red, faked with gradient */ linear-gradient(
-    rgba(221, 201, 201, 0.45),
-    rgba(0, 0, 0, 0.45)
-  ),
-  /* bottom, image */ url(/images/images\ \(3\).jpg);
-background-size: cover;
-background-attachment: fixed;
+h1{
+  font-family: Cookie;
 }
+
+#block{
+
+  font-size: larger;
+}
+
 
 #home{
   background:
@@ -51,7 +55,7 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-#body{
+#projects{
   background:
   /* top, transparent red, faked with gradient */ linear-gradient(
     rgba(221, 201, 201, 0.45),
@@ -62,13 +66,40 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-#table{
+#body{
   background:
   /* top, transparent red, faked with gradient */ linear-gradient(
     rgba(221, 201, 201, 0.45),
     rgba(0, 0, 0, 0.45)
   ),
   /* bottom, image */ url(/images/images\ \(3\).jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+.info{
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/images/images\ \(3\).jpg);
+background-size: cover;
+background-attachment: fixed;
+border: none;
+}
+.table{
+  border: none !important;
+}
+
+#table{
+  background:
+  top, transparent red, faked with gradient 
+   linear-gradient(
+    rgba(221, 201, 201, 0.3),
+    rgb(144, 175, 206)
+  ),
+  bottom, image  
+ url(/images/images\ \(3\).jpg);
 background-size: cover;
 background-attachment: fixed;
 }
@@ -84,9 +115,39 @@ background-size: cover;
 background-attachment: fixed;
 }
 #navraj{
-  margin-left: 460px;
   align-content: space-between;
   display: flex;
   font-size: larger;
   font-weight: 600;
+}
+
+#block{
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/images/images\ \(3\).jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.form-wrapper {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 2em;
+}
+
+/* link on hover */
+
+.navbar a:hover{
+  color: pink !important;
+  
+  transform: scale(1.1, 1.1);
+}
+
+@media only screen and (max-width:425 ) {
+  #box {
+    width: 100px;
+  }
 }
