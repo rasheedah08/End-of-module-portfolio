@@ -4,15 +4,45 @@
 
 
 .box{
-    height: 300px;
-    width: 500px;
+    height:90%;
+    width: 80%;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     margin: 10px;
     padding: 20px;
 }
+.box-testimonial{
+  height:300px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
 
-.box h3{
+.img-fluid{
+ width:60%;
+ object-fit: cover;
+  
+}
+.rashee{
+  width:60%;
+  object-fit: cover;
+}
+@media screen and (max-width:795px){
+  /* .img-fluid{
+    width: 200px;
+    height: 200px;
+  } */
+  /* .box-testimonial{
+    height: 400px;
+  } */
+  /* .reference{
+    padding-top: 10px;
+  } */
+}
+h3{
+    font-family: Lobster;
     color: yellowgreen;
     font-size: 2rem;
     margin-bottom: 20px;
@@ -25,6 +55,12 @@
 
 h1{
   font-family: Cookie;
+  color: pink;
+}
+
+h2{
+  color: pink;
+  padding-bottom: 20px;
 }
 
 #block{
@@ -32,39 +68,38 @@ h1{
   font-size: larger;
 }
 
-
-#home{
+ #home{
   background:
   /* top, transparent red, faked with gradient */ linear-gradient(
-    rgba(221, 201, 201, 0.45),
-    rgba(0, 0, 0, 0.45)
+    /* rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45) */
   ),
   /* bottom, image */ url(/images/images\ \(3\).jpg);
-background-size: cover;
-background-attachment: fixed;
-}
+/* background-size: cover;
+background-attachment: fixed; */
+ }
 
 #about{
   background:
   /* top, transparent red, faked with gradient */ linear-gradient(
-    rgba(221, 201, 201, 0.45),
-    rgba(0, 0, 0, 0.45)
+    /* rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45) */
   ),
   /* bottom, image */ url(/images/images\ \(3\).jpg);
-background-size: cover;
-background-attachment: fixed;
+/* background-size: cover;
+background-attachment: fixed; */
 }
 
 #projects{
   background:
-  /* top, transparent red, faked with gradient */ linear-gradient(
-    rgba(221, 201, 201, 0.45),
+  /* top, transparent red, faked with gradient linear-gradient( */
+    /* rgba(221, 201, 201, 0.45),
     rgba(0, 0, 0, 0.45)
-  ),
+  ), */
   /* bottom, image */ url(/images/images\ \(3\).jpg);
-background-size: cover;
-background-attachment: fixed;
-}
+/* background-size: cover;
+background-attachment: fixed; */
+} 
 
 #body{
   background:
@@ -146,8 +181,87 @@ background-attachment: fixed;
   transform: scale(1.1, 1.1);
 }
 
-@media only screen and (max-width:425 ) {
+/* @media only screen and (max-width:425px ) {
   #box {
     width: 100px;
   }
+} */
+
+/* @media only screen and (max-width:375px){
+  .box-testimonial{
+    width: 250px;
+  }
+} */
+
+
+@media all and (max-width:768px) {
+  .box-testimonial{
+    height:auto;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+  }
+  .reference{
+    padding-top: 10px;
+  }
+  .img-fluid{
+    width:200px;
+    object-fit: cover;
+     
+   }
+  
+}
+@media all and (max-width:567px) {
+  .box-testimonial{
+    height:auto;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+  }
+  .reference{
+    padding-top: 10px;
+  }
+  .img-fluid{
+    width:200px;
+    object-fit: cover;
+     
+   }
+}
+@media all and (max-width:400px) {
+  .box-testimonial{
+    height:auto;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+  }
+  .reference{
+    padding-top: 10px;
+  }.img-fluid{
+    width:200px;
+    object-fit: cover;
+     
+   }
+}
+@media all and (max-width:350px) {
+  .box-testimonial{
+    height:auto;
+    width: 310px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+  }
+  .reference{
+    padding-top: 10px;
+  }.img-fluid{
+    width:200px;
+    object-fit: cover;
+     
+   }
 }

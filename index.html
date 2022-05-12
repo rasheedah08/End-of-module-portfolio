@@ -11,43 +11,47 @@
     <title>Portfolio</title>
 </head>
 <body class="bg-dark" id="body">
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="navbar">
-    <div class="container-fluid gap-3 justify-content-center" id="navraj">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-      <ul class="navbar-nav py-4 " id="block">
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#home">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#about">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#projects">PROJECTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#resume">RESUME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#testimonials">TESTIMONIALS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#contact">CONTACT</a>
-        </li>
-      </ul>
-    </div>
-    </div>
-  </nav>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="navbar">
+      <div class="container-fluid gap-3 justify-content-center" id="navraj">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <ul class="navbar-nav py-4 " id="block">
+          
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#resume">RESUME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#testimonials">TESTIMONIALS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  </div>
+  
   <div class="container bg-gradient py-5 text-white mb-3" id="home">
     <div class="row d-flex justify-content-between">
-      <div class="col-md-4">
-        <div class="photo">
-          <img class="img-fluid w-100" src="./images/Rasheedah (2).JPG" />
+      <div class="col-md-4 px-0 mx-0">
+        <div class="photo text-center">
+          <img class=" rashee" style="height: 75%;" src="./images/Rasheedah (2).JPG" id="landing"/>
         </div>
       </div>
-      <div class="col-md-6 me-3" id="table">
+      <div class="col-md-6 me-3 justify-content-start" id="table">
         <div class="details ">  
             <h1 class="display-1">Rasheedah Anhuizen</h1>
             <h3>Aspiring Web Developer</h3>
@@ -82,19 +86,19 @@
    <section id="RESUME">
      <div class="row">
       <div class="col-md-6 col-lg-6 col-xs-12" >
-        <div id="box" class="box text-center" data-aos="fade-right">
-          <h3>SOFT SKILLS</h3> 
+        <div id="box" class="box" data-aos="fade-right">
+          <h3>Soft skills</h3> 
            <ul>
              <li>Team work</li>
-             <li>Time management</li>
-             <li>Problem-solving</li>
+             <li>Creativity</li>
+             <li>Work ethic</li>
              <li>Adaptability</li>
            </ul>
         </div>
       </div>
       <div class="col-md-6 col-lg-6 col-xs-12">
         <div class="box" data-aos="fade-left">
-           <h3>TECHNICAL SKILLS</h3> 
+           <h3>Technical skills</h3> 
            <ul>
             <li>HTML5</li>
             <li>CSS3</li>
@@ -115,26 +119,31 @@
         <div class="box text-center" data-aos="fade-right">
            <h3>Calculator</h3> 
            <ul>
-             <li>Github: https://github.com/rasheedah08/calculator</li>
-             <li>Netlify: https://famous-meerkat-ba3394.netlify.app/</li>
+             <!-- <li>Github: https://github.com/rasheedah08/calculator</li>
+             <li>Netlify: https://famous-meerkat-ba3394.netlify.app/</li> -->
+             <button id="button" class="btn btn-secondary"><a target="_blank" href="https://github.com/rasheedah08/calculator"
+              class="text-decoration-none" style="color: white;">Github</a></button>
            </ul>
         </div>
     </div>
     <div class="col">
-        <div class="box" data-aos="fade-left">
-           <h3>MOCK PORTFOLIO</h3> 
+        <div class="box" data-aos="flip-up">
+           <h3>Mock portfolio</h3> 
            <ul>
-            <li>Github: https://github.com/rasheedah08/mock-portfolio</li>
-            <li>Netlify: https://phenomenal-piroshki-912af9.netlify.app/</li>
+            <!-- <li>Github: https://github.com/rasheedah08/mock-portfolio</li>
+            <li>Netlify: https://phenomenal-piroshki-912af9.netlify.app/</li> -->
+            <button id="button" class="btn btn-secondary"><a target="_blank" href="https://github.com/rasheedah08/mock-portfolio" class="text-decoration-none" style="color: white;">Github</a></button>
           </ul>
         </div>
     </div>
     <div class="col">
-      <div class="box" data-aos="fade-right">
-         <h3>END OF MODULE PORTFOLIO</h3> 
+      <div class="box" data-aos="fade-left">
+         <h3>End of module portfolio</h3> 
          <ul>
-          <li>Github: https://github.com/rasheedah08/End-of-module-portfolio</li>
-          <li>Netlify: https://splendorous-pie-44f176.netlify.app/</li>
+          <!-- <li>Github: https://github.com/rasheedah08/End-of-module-portfolio</li>
+          <li>Netlify: https://splendorous-pie-44f176.netlify.app/</li> -->
+          <button id="button" class="btn btn-secondary"><a target="_blank" href="https://github.com/rasheedah08/End-of-module-portfolio"
+            class="text-decoration-none" style="color: white;">Github</a></button>
         </ul>
       </div>
     </div>
@@ -144,17 +153,17 @@
   <div class="container bg-gradient text-white text-center py-4" id="resume">
     <h2>RESUME</h2>
     <div class="row ">
-      <div class="col">
+      <div class="col-lg-6 col-sm-12 col-md-12">
         <div class="box text-center" data-aos="fade-right">
-           <h3>WORK</h3> 
+           <h3>Work</h3> 
            <P>
             I would like to classify myself as an entrepreneur. I have used my hobbie, which is baking, as a job opportunity by selling baked goods and desserts for various occasions. I also aqcuire the skill of sewing , which i use to make clothing and do alterations for customers. 
            </P>
         </div>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-sm-12 col-md-12" >
         <div class="box" data-aos="fade-left">
-           <h3>EDUCATION</h3> 
+           <h3>Education</h3> 
            <P>
             I started my high school career in 2017 at South Peninsula High School, and matriculated in 2021 with a bachelor's pass. In March 2022 i got the opportunity to learn coding at Life Chioces Academy, which where i currently am.
            </P>
@@ -167,72 +176,76 @@
       <h2>TESTIMONIALS</h2>
       <div class="row ">
         <div class="col">
-          <div class="box" data-aos="fade-right">
-             <h3>SIBONGILE</h3> 
+          <div class="box-testimonial" data-aos="fade-right">
+             <h3>Sibongile Rwayi</h3>
              <div class="row">
                <div class="col-md-6">
-                 <img src="/images/Sibongile.JPG" alt="" width="60%">
+                 <img src="/images/Sibongile.JPG" alt="" width="60%" height="auto" class="img-fluid">
                </div>
                <div class="col-md-6">
-                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque exercitationem dolore magni temporibus quas doloremque!</p>
+                 <p class="reference">Rasheedah is an an amazing individual to work with - hard working, curious to learn, and a people's person. She shows a lot of great potential and indeed has a very bright future. - COLLEGUE</p>
                </div>
              </div>
           </div>
       </div>
       <div class="col">
-          <div class="box" data-aos="fade-left">
-             <h3>TAUCIA</h3> 
+          <div class="box-testimonial" data-aos="fade-left">
+             <h3>Taucia Jackson</h3> 
              <div class="row">
                <div class="col-md-6">
-                 <img src="/images/Taucia.JPG" alt="" width="60%" class="img-fluid">
+                 <img src="/images/taucia.png.jpg" alt=""  class="img-fluid">
                </div>
                <div class="col-md-6">
-                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque exercitationem dolore magni temporibus quas doloremque!</p>
+                 <p  class="reference">Rasheeedah is a very hard working person, always focused and does her best in everything she gets. She is dedicated to finish every task and is always cheerful. - COLLEGUE</p>
                </div>
              </div>
           </div>
       </div>
       <div class="col">
-        <div class="box" data-aos="fade-right">
-           <h3>SALEEM</h3> 
+        <div class="box-testimonial" data-aos="fade-right">
+           <h3>Saleem Ariefdien</h3> 
            <div class="row">
              <div class="col-md-6">
                <img src="/images/Saleem.JPG"  alt="" width="60%"
                class="img-fluid">
              </div>
              <div class="col-md-6">
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque exercitationem dolore magni temporibus quas doloremque!</p>
+               <p  class="reference">Rasheedah is a  person who is always willing to lend a helping hand.  She works hard and always puts in 100% effort . She would be a good person to have at your company. - COLLEGUE</p>
              </div>
            </div>
         </div>
     </div>
     <div class="col">
-      <div class="box" data-aos="fade-left">
-         <h3>PHILANI</h3> 
+      <div class="box-testimonial 2"  data-aos="fade-left">
+         <h3>Joel Mukanya</h3> 
          <div class="row">
            <div class="col-md-6">
-             <img src="/images/Philani.JPG" alt="" width="60%">
+             <img src="/images/joel2.jpg" alt="" width="60%"  class="img-fluid" >
            </div>
            <div class="col-md-6">
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque exercitationem dolore magni temporibus quas doloremque!</p>
+             <p  class="reference">Rasheedah demonstrates a fantastic understanding of the materials we are learning in class. Rasheedah has proven to have an exhaustive understanding of the HTML, CSS & Bootstrap topics we covered.Joel Mukanya-CODING LECTURER</p>
            </div>
          </div>
+        </div>
       </div>
+
+
+    </div>
+
   </div>
-      </div>
-  </div>
-  
+
+
   <div class="container bg-gradient text-white text-center py-4 " id="contact">
     
-        <h3>CONTACT ME</h3> 
+        <h2>CONTACT ME</h2> 
         
         
         <div class="row">
             <div class="col-6 form-wrapper">
-              <form action="https://formspree.io/f/mrgjrprl" >
+              <form  action="https://formspree.io/f/mrgjrprl" method="POST" target="_blank" >
                 <div class="mb-3 mt-3" >
                   <label for="name" class="form-label">Name:</label>
-                  <input type="name" class="form-control" id="email" placeholder="Enter name" name="name">
+                  <input type="text" class="form-control" id="email" placeholder="Enter name" name="name">
                 </div>
                 <div class="mb-3">
                   <label for="pwd" class="form-label">Email:</label>
@@ -241,7 +254,7 @@
                 <label for="comment">Your Message:</label>
                 <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Enter message"></textarea>
                 
-                <button type="submit" class="btn btn-secondary">Submit</button>
+                <button type="submit" class="btn btn-secondary mt-3">Submit</button>
               </form>
           </div>
         </div>
@@ -252,7 +265,7 @@
     <footer class="bg-secondary text-center text-white py-5">
       <!-- Copyright -->
       <div class="text-center p-3">
-        © 2020 Copyright:
+        © 2022 Copyright:
         <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
       </div>
       <div>
