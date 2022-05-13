@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Ms+Madi&family=Tapestry&family=Updock&display=swap');
 
-
+html,body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 
 .box{
@@ -30,16 +34,16 @@
   object-fit: cover;
 }
 @media screen and (max-width:795px){
-  /* .img-fluid{
+  .img-fluid{
     width: 200px;
     height: 200px;
-  } */
-  /* .box-testimonial{
+  }
+  .box-testimonial{
     height: 400px;
-  } */
-  /* .reference{
+  } 
+   .reference{
     padding-top: 10px;
-  } */
+  }
 }
 h3{
     font-family: Lobster;
@@ -196,7 +200,7 @@ background-attachment: fixed;
 
 @media all and (max-width:768px) {
   .box-testimonial{
-    height:auto;
+    height:300px;
     width: 500px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -215,8 +219,8 @@ background-attachment: fixed;
 }
 @media all and (max-width:567px) {
   .box-testimonial{
-    height:auto;
-    width: 400px;
+    height:300px;
+    width: 500px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     margin: 10px;
@@ -248,14 +252,15 @@ background-attachment: fixed;
      
    }
 }
-@media all and (max-width:350px) {
+@media (max-width:350px) {
   .box-testimonial{
-    height:auto;
-    width: 310px;
+    width: 300px;
+    height: 500px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     margin: 10px;
     padding: 20px;
+  
   }
   .reference{
     padding-top: 10px;
